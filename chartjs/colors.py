@@ -1,14 +1,14 @@
 COLORS = [
-    (202, 201, 197),  # Light gray
-    (171, 9, 0),  # Red
-    (166, 78, 46),  # Light orange
-    (255, 190, 67),  # Yellow
-    (163, 191, 63),  # Light green
-    (122, 159, 191),  # Light blue
-    (140, 5, 84),  # Pink
-    (166, 133, 93),  # Light brown
-    (75, 64, 191),  # Red blue
-    (237, 124, 60),  # orange
+    (202, 201, 197, 1.0),  # Light gray
+    (171, 9, 0, 1.0),  # Red
+    (166, 78, 46, 1.0),  # Light orange
+    (255, 190, 67, 1.0),  # Yellow
+    (163, 191, 63, 1.0),  # Light green
+    (122, 159, 191, 1.0),  # Light blue
+    (140, 5, 84, 1.0),  # Pink
+    (166, 133, 93, 1.0),  # Light brown
+    (75, 64, 191, 1.0),  # Red blue
+    (237, 124, 60, 1.0),  # orange
 ]
 
 

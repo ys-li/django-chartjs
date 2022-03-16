@@ -17,9 +17,9 @@ class BaseLineChartView(JSONView):
 
     def get_dataset_options(self, index, color):
         default_opt = {
-            "backgroundColor": "rgba(%d, %d, %d, 0.5)" % color,
-            "borderColor": "rgba(%d, %d, %d, 1)" % color,
-            "pointBackgroundColor": "rgba(%d, %d, %d, 1)" % color,
+            "backgroundColor": "rgba(%d, %d, %d, %.2f)" % color,
+            "borderColor": "rgba(%d, %d, %d, %.2f)" % color,
+            "pointBackgroundColor": "rgba(%d, %d, %d, %.2f)" % color,
             "pointBorderColor": "#fff",
         }
         return default_opt
